@@ -1,0 +1,26 @@
+
+@import 'cssreset.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
+
+
+.notification {
+    background: #0D2C44;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.notification .text {
+    color:white;
+    display: inline-block;
+}
+
+.notification a {
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}

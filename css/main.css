@@ -28,18 +28,22 @@
 
 header {
     display: flex;
+    padding: 20px;
+    background: purple;
+    text-transform: uppercase;
 }
+
 
 header .logo{
     background: yellow;
-    width: 10%;
+    width: 30%;
 }
 header .header-list {
     background: red;
-    padding: 2px;
+    /* padding: 10px; */
     display: flex;
-
-    width: 40%;
+    justify-content: space-between;
+    width: 60%;
 
 }
 

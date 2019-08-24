@@ -23,6 +23,28 @@
     color:white;
     text-decoration: none;
     padding-bottom: 1px; 
-    /* https://stackoverflow.com/questions/36802976/move-border-bottom-further-down */
     border-bottom: 1px solid white;
+}
+
+header {
+    display: flex;
+}
+
+header .logo{
+    background: yellow;
+    width: 10%;
+}
+header .header-list {
+    background: red;
+    padding: 2px;
+    display: flex;
+
+    width: 40%;
+
+}
+
+header .header-right {
+    width: 20%;
+    background: green;
+    display: flex;
 }

@@ -22,5 +22,7 @@
     display: inline-block;
     color:white;
     text-decoration: none;
+    padding-bottom: 1px; 
+    /* https://stackoverflow.com/questions/36802976/move-border-bottom-further-down */
     border-bottom: 1px solid white;
 }

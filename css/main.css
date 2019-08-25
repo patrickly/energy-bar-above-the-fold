@@ -54,28 +54,38 @@ header .header-list {
     font-weight: 400;
     align-items: center;
     letter-spacing: 1px;
-    
+
 }
 
 header .header-list a{
     background: blue;
     text-decoration: none;
     color: black;
+    position: relative;
+
     /* padding-top: 3px;
     padding-bottom: 7px;  */
     /* https://css-tricks.com/forums/topic/menu-items-moving-when-one-goes-bold-on-hover/ */
 }
 
-header .header-list .line {
-    background: pink;
+header .header-list a .line {
+    position: absolute;
+    top: 1rem;
+    background: black;
     height: 2px;
     width: 100%;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+
+
     /* width: auto; */
     /* https://stackoverflow.com/questions/2232440/how-to-make-css-width-to-fill-parent */
 
 }
 header .header-list a:hover .line{
     /* https://stackoverflow.com/questions/5752670/show-a-div-when-a-mouseover-on-a-link */
+    opacity: 1;
+
 
 }
 header .header-right {

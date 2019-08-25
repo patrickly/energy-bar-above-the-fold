@@ -96,20 +96,26 @@ header .header-right {
     justify-content: flex-end;
     align-items: center; 
     font-size: .70rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+
 }
 header .header-right a{
-    /* color: black; */
+    color: black;
     text-decoration: none;
 }
+
+
 header .header-right .search {
     margin: 0 10px;
 }
-header .header-right .fas {
-    font-size: 1.2rem;
+
+header .header-right .lang  a img {
+    height: 1.8rem;
 }
 
 header .header-right .fas {
-    color: initial;
+    font-size: 1.2rem;
 }
 
 header .header-right .divider {

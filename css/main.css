@@ -46,19 +46,19 @@ header .logo img {
     top: 1px;
 }
 header .header-list {
-    background: red;
+    background: white;
     display: flex;
     justify-content: space-around;
     width: 50%;
     font-size: .70rem;
-    font-weight: 400;
+    font-weight: 600;
     align-items: center;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
 
 }
 
 header .header-list a{
-    background: blue;
+    /* background: blue; */
     text-decoration: none;
     color: black;
     position: relative;
@@ -70,7 +70,7 @@ header .header-list a{
 
 header .header-list a .line {
     position: absolute;
-    top: 1rem;
+    top: 1.1rem;
     background: black;
     height: 2px;
     width: 100%;

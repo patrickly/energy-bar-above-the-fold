@@ -89,7 +89,22 @@ header .header-list a:hover .line{
 
 }
 header .header-right {
-    width: 20%;
+    padding-left: 5%;
+    width: 25%;
     background: green;
     display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: .70rem;
 }
+
+header .header-right .fas {
+    font-size: 1.2rem;
+}
+
+header .header-right .divider {
+    width: 1px;
+    height: 30px;
+    background: #ccccc8;
+}
+

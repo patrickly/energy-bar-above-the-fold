@@ -8,7 +8,7 @@
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: .75rem;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -35,18 +35,43 @@ header {
 
 
 header .logo{
-    background: yellow;
-    width: 30%;
+    background: white;
+    width: 25%;
+ 
+}
+
+header .logo img {
+    width: 100px;
+    position: relative;
+    top: 1px;
 }
 header .header-list {
     background: red;
-    /* padding: 10px; */
     display: flex;
-    justify-content: space-between;
-    width: 60%;
-
+    justify-content: space-around;
+    width: 50%;
+    font-size: .70rem;
+    font-weight: 700;
+    align-items: center;
+    letter-spacing: 1px;
+    
 }
 
+header .header-list a{
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 7px; 
+    /* https://css-tricks.com/forums/topic/menu-items-moving-when-one-goes-bold-on-hover/ */
+}
+
+
+header .header-list a:hover{
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    /* text-decoration:underline; */
+
+}
 header .header-right {
     width: 20%;
     background: green;

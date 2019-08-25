@@ -29,7 +29,6 @@
 header {
     display: flex;
     padding: 20px;
-    /* background: purple; */
     text-transform: uppercase;
 }
 
@@ -58,14 +57,9 @@ header .header-list {
 }
 
 header .header-list a{
-    /* background: blue; */
     text-decoration: none;
     color: black;
     position: relative;
-
-    /* padding-top: 3px;
-    padding-bottom: 7px;  */
-    /* https://css-tricks.com/forums/topic/menu-items-moving-when-one-goes-bold-on-hover/ */
 }
 
 header .header-list a .line {
@@ -78,20 +72,15 @@ header .header-list a .line {
     transition: all .2s ease-in-out;
 
 
-    /* width: auto; */
-    /* https://stackoverflow.com/questions/2232440/how-to-make-css-width-to-fill-parent */
 
 }
 header .header-list a:hover .line{
-    /* https://stackoverflow.com/questions/5752670/show-a-div-when-a-mouseover-on-a-link */
     opacity: 1;
 
 
 }
 header .header-right {
-    /* padding-left: %; */
     width: 24%;
-    /* background: green; */
     display: flex;
     justify-content: flex-end;
     align-items: center; 

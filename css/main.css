@@ -29,7 +29,7 @@
 header {
     display: flex;
     padding: 20px;
-    background: purple;
+    /* background: purple; */
     text-transform: uppercase;
 }
 
@@ -89,22 +89,33 @@ header .header-list a:hover .line{
 
 }
 header .header-right {
-    padding-left: 5%;
-    width: 25%;
-    background: green;
+    /* padding-left: %; */
+    width: 24%;
+    /* background: green; */
     display: flex;
-    justify-content: space-between; 
+    justify-content: flex-end;
     align-items: center; 
     font-size: .70rem;
 }
-
+header .header-right a{
+    /* color: black; */
+    text-decoration: none;
+}
+header .header-right .search {
+    margin: 0 10px;
+}
 header .header-right .fas {
     font-size: 1.2rem;
+}
+
+header .header-right .fas {
+    color: initial;
 }
 
 header .header-right .divider {
     width: 1px;
     height: 30px;
     background: #ccccc8;
+    margin: 0 10px;
 }
 

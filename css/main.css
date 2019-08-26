@@ -82,6 +82,7 @@ header .header-list a:hover .line{
 
 }
 header .header-right {
+    background: green;
     width: 24%;
     display: flex;
     justify-content: flex-end;
@@ -108,6 +109,9 @@ header .header-right .search {
 }
 
 header .header-right .search input[type=text] {
+    position: absolute;
+    left: 0px;
+    padding-top: 10px;
     /* opacity: 0; */
     visibility: hidden;
     border: none;
@@ -116,7 +120,9 @@ header .header-right .search input[type=text] {
 }
 
 header .header-right .search input[type=text].act {
+    position: absolute;
     /* opacity: 1; */
+    left: -830px;
     visibility: visible;
 
     border: none;

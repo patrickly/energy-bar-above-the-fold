@@ -135,8 +135,9 @@ header .header-right .search input[type=text].act {
     width: 65vw;
 }
 
+header .header-right .search .fas-search {
 
-
+}
 header .header-right .search .inner{
     /* margin-left: 2rem;
     display: flex;

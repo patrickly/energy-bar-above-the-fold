@@ -96,7 +96,16 @@ header .header-right a{
 
 
 header .header-right .search {
+    display: flex;
     margin: 0 10px;
+    cursor: pointer;
+    /* transform: translate3d(-500px, 0, 0); */
+    transform: translate3d(-58vw, 0, 0);
+
+}
+
+header .header-right .search .inner{
+
 }
 
 header .header-right .lang  a img {

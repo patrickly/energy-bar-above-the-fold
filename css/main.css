@@ -108,13 +108,17 @@ header .header-right .search {
 }
 
 header .header-right .search input[type=text] {
-    opacity: 0;
+    /* opacity: 0; */
+    visibility: hidden;
+    border: none;
     width: 0vw;
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 header .header-right .search input[type=text].act {
-    opacity: 1;
+    /* opacity: 1; */
+    visibility: visible;
+
     border: none;
     border-bottom: 2px solid red;
     /* width: 800px; */

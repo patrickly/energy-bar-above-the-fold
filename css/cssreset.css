@@ -50,3 +50,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* https://stackoverflow.com/questions/1457849/how-to-remove-the-border-highlight-on-an-input-text-element */

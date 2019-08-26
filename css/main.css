@@ -94,6 +94,8 @@ header .header-right {
 header .header-right a{
     color: black;
     text-decoration: none;
+    white-space: nowrap;
+    /* https://alligator.io/css/prevent-line-break/ */
 }
 
 

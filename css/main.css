@@ -53,6 +53,8 @@ header .header-list {
     font-weight: 600;
     align-items: center;
     letter-spacing: 1.2px;
+    z-index: 0;
+    position: relative;
 
 }
 
@@ -101,11 +103,18 @@ header .header-right .search {
     cursor: pointer;
     /* transform: translate3d(-500px, 0, 0); */
     transform: translate3d(-58vw, 0, 0);
+    position: relative;
 
 }
 
 header .header-right .search .inner{
-
+    margin-left: 2rem;
+    display: flex;
+    background: green;
+    width: 56vw;
+    height: 20px;
+    z-index: 2;
+    position: absolute;
 }
 
 header .header-right .lang  a img {

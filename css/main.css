@@ -95,13 +95,9 @@ header .header-right {
 header .header-right a{
     color: black;
     text-decoration: none;
-    /* white-space: nowrap; */
-    /* https://alligator.io/css/prevent-line-break/ */
-    color: black;
-    text-decoration: none;
     white-space: nowrap;
     padding:0 10px;
-    border-right: 1px solid black;
+    border-right: 1px solid #ccccc8;
     height: 30px;
     text-align: center;
     display: flex;
@@ -122,7 +118,7 @@ header .header-right .search {
 
 header .header-right .search input[type=text] {
     /* opacity: 0; */
-    padding-top: 1px;
+    padding-top: 10px;
     visibility: hidden;
     border: none;
     width: 0vw;
@@ -134,7 +130,7 @@ header .header-right .search input[type=text].act {
     visibility: visible;
 
     border: none;
-    border-bottom: 2px solid red;
+    border-bottom: 1px solid #ccccc8;
     /* width: 800px; */
     width: 65vw;
 }

@@ -53,6 +53,8 @@ header .header-list {
     font-weight: 600;
     align-items: center;
     letter-spacing: 1.2px;
+    z-index: 0;
+    position: relative;
 
 }
 
@@ -80,6 +82,7 @@ header .header-list a:hover .line{
 
 }
 header .header-right {
+    
     width: 24%;
     display: flex;
     justify-content: flex-end;
@@ -92,11 +95,56 @@ header .header-right {
 header .header-right a{
     color: black;
     text-decoration: none;
+    white-space: nowrap;
+    padding:0 10px;
+    border-right: 1px solid #ccccc8;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
 }
 
 
 header .header-right .search {
+    display: flex;
     margin: 0 10px;
+    cursor: pointer;
+    /* transform: translate3d(-500px, 0, 0); */
+    /* transform: translate3d(-58vw, 0, 0); */
+    position: relative;
+
+}
+
+header .header-right .search input[type=text] {
+    /* opacity: 0; */
+    padding-top: 10px;
+    visibility: hidden;
+    border: none;
+    width: 0vw;
+    transition: all .3s ease-in-out;
+}
+
+header .header-right .search input[type=text].act {
+    /* opacity: 1; */
+    visibility: visible;
+
+    border: none;
+    border-bottom: 1px solid #ccccc8;
+    /* width: 800px; */
+    width: 65vw;
+}
+
+
+
+header .header-right .search .inner{
+    /* margin-left: 2rem;
+    display: flex;
+    background: green;
+    width: 56vw;
+    height: 20px;
+    z-index: 2;
+    position: absolute; */
 }
 
 header .header-right .lang  a img {
@@ -107,10 +155,7 @@ header .header-right .fas {
     font-size: 1.2rem;
 }
 
-header .header-right .divider {
-    width: 1px;
-    height: 30px;
-    background: #ccccc8;
-    margin: 0 10px;
+header .header-right .cart {
+    padding-left: 10px;
 }
 

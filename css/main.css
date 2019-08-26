@@ -102,19 +102,26 @@ header .header-right .search {
     margin: 0 10px;
     cursor: pointer;
     /* transform: translate3d(-500px, 0, 0); */
-    transform: translate3d(-58vw, 0, 0);
+    /* transform: translate3d(-58vw, 0, 0); */
     position: relative;
 
 }
 
+
+header .header-right .search input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+    /* width: 800px; */
+    width: 65vw;
+}
 header .header-right .search .inner{
-    margin-left: 2rem;
+    /* margin-left: 2rem;
     display: flex;
     background: green;
     width: 56vw;
     height: 20px;
     z-index: 2;
-    position: absolute;
+    position: absolute; */
 }
 
 header .header-right .lang  a img {

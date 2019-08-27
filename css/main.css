@@ -126,7 +126,9 @@ header .header-right .search input[type=text] {
     transition: all .3s ease-in-out;
     font-size: 24px;
     font-weight: 900;
-
+    padding-left: 30px;
+    text-transform: uppercase;
+    
 }
 
 header .header-right .search input[type=text].act {
@@ -139,14 +141,31 @@ header .header-right .search input[type=text].act {
     width: 65vw;
 }
 
-header .header-right .search input[type=text]::placeholder .act {
+header .header-right .search #rightButton {
+    height: 30px;
+    width: 24px;
 }
 
-header .header-right .search .fa-search {
+header .header-right .search #rightButton #abc {
     position: absolute;
     right: 0; 
     top: 6px;
 }
+
+header .header-right .search .front-icon {
+    position: absolute;
+    left: 0; 
+    top: 6px;
+    opacity: 0.0;
+}
+
+header .header-right .search .front-icon.active {
+    position: absolute;
+    left: 0; 
+    top: 6px;
+    opacity: 1;
+}
+
 header .header-right .search .inner{
     /* margin-left: 2rem;
     display: flex;

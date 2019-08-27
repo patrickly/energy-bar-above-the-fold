@@ -11,7 +11,7 @@ var clickedBtn = function() {
     // mobileMenu[0].classList.toggle('active');
     searchingInput[0].classList.toggle('act');
     xyz.classList.toggle('active');
-    // searchIcon[0].classList.toggle('fa-times');
+    abc.classList.toggle('fa-times');
     // abc.classList.toggle('act');
     console.log("clicked");
 }

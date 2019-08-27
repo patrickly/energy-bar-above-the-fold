@@ -140,9 +140,13 @@ header .header-right .search input[type=text].act {
     width: 65vw;
 }
 
+header .header-right .search #rightButton {
+    background: red;
+    height: 30px;
+    width: 30px;
+}
 
-
-header .header-right .search #abc {
+header .header-right .search #rightButton #abc {
     position: absolute;
     right: 0; 
     top: 6px;

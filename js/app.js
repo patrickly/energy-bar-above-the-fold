@@ -5,6 +5,7 @@ var searchingInput = document.getElementsByClassName('searching');
 // var xIcon = document.getElementsByClassName('fa-times');
 var abc = document.getElementById("abc");
 var xyz = document.getElementById("xyz");
+var rButton = document.getElementById("rightButton");
 
 
 var clickedBtn = function() {
@@ -19,7 +20,7 @@ var clickedBtn = function() {
 var logging = function (){
     
 }
-abc.addEventListener('click', clickedBtn);
+rButton.addEventListener('click', clickedBtn);
 
 console.log("abc: ", abc);
 console.log("xyz: ", xyz);

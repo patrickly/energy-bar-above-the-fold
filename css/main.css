@@ -113,6 +113,7 @@ header .header-right .search {
     /* transform: translate3d(-58vw, 0, 0); */
     position: relative;
     right: -10px;
+    top: 2px;
 
 }
 

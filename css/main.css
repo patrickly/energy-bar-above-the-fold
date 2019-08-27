@@ -127,6 +127,7 @@ header .header-right .search input[type=text] {
     font-size: 24px;
     font-weight: 900;
     padding-left: 30px;
+    text-transform: uppercase;
     
 }
 
@@ -141,23 +142,20 @@ header .header-right .search input[type=text].act {
 }
 
 header .header-right .search #rightButton {
-    background: red;
     height: 30px;
-    width: 30px;
+    width: 24px;
 }
 
 header .header-right .search #rightButton #abc {
     position: absolute;
     right: 0; 
     top: 6px;
-    color: blue;
 }
 
 header .header-right .search .front-icon {
     position: absolute;
     left: 0; 
     top: 6px;
-    color: red;
     opacity: 0.0;
 }
 
@@ -165,7 +163,6 @@ header .header-right .search .front-icon.active {
     position: absolute;
     left: 0; 
     top: 6px;
-    color: green;
     opacity: 1;
 }
 

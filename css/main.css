@@ -143,9 +143,9 @@ header .header-right .search input[type=text]::placeholder .act {
 }
 
 header .header-right .search #abc {
-    /* position: absolute;
+    position: absolute;
     right: 0; 
-    top: 6px; */
+    top: 6px;
     color: blue;
 }
 

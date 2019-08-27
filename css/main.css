@@ -147,6 +147,13 @@ header .header-right .search .fa-search {
     right: 0; 
     top: 6px;
 }
+
+header .header-right .search .front-icon.fa-search {
+    position: absolute;
+    left: 0; 
+    top: 6px;
+    color: red;
+}
 header .header-right .search .inner{
     /* margin-left: 2rem;
     display: flex;

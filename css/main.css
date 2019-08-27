@@ -139,8 +139,7 @@ header .header-right .search input[type=text].act {
     width: 65vw;
 }
 
-header .header-right .search input[type=text]::placeholder .act {
-}
+
 
 header .header-right .search #abc {
     position: absolute;
@@ -149,12 +148,22 @@ header .header-right .search #abc {
     color: blue;
 }
 
-header .header-right .search #xyz {
+header .header-right .search .front-icon {
     position: absolute;
     left: 0; 
     top: 6px;
     color: red;
+    opacity: 0.4;
 }
+
+header .header-right .search .front-icon.active {
+    position: absolute;
+    left: 0; 
+    top: 6px;
+    color: green;
+    opacity: 1;
+}
+
 header .header-right .search .inner{
     /* margin-left: 2rem;
     display: flex;

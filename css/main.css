@@ -142,13 +142,14 @@ header .header-right .search input[type=text].act {
 header .header-right .search input[type=text]::placeholder .act {
 }
 
-header .header-right .search .fa-search {
-    position: absolute;
+header .header-right .search #abc {
+    /* position: absolute;
     right: 0; 
-    top: 6px;
+    top: 6px; */
+    color: blue;
 }
 
-header .header-right .search .front-icon.fa-search {
+header .header-right .search #xyz {
     position: absolute;
     left: 0; 
     top: 6px;

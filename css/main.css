@@ -126,7 +126,8 @@ header .header-right .search input[type=text] {
     transition: all .3s ease-in-out;
     font-size: 24px;
     font-weight: 900;
-
+    padding-left: 30px;
+    
 }
 
 header .header-right .search input[type=text].act {
@@ -153,7 +154,7 @@ header .header-right .search .front-icon {
     left: 0; 
     top: 6px;
     color: red;
-    opacity: 0.4;
+    opacity: 0.0;
 }
 
 header .header-right .search .front-icon.active {

@@ -194,7 +194,7 @@ header .header-right .cart {
     display: block;
     position: absolute;
     right: 0;
-    background: purple;
+    background: white;
     height: 255px;
     width: 350px;
 }
@@ -209,7 +209,6 @@ header .header-right .cart {
 .shopping-modal h2{
     width: 100%;
     text-align: center;
-    background: pink;
     margin-top: 10px;
     margin-bottom: 45px;
     text-transform: uppercase;
@@ -220,12 +219,10 @@ header .header-right .cart {
 }
 
 .shopping-modal .table-container{
-    background: yellow;
     display: flex;
     justify-content: flex-end;
 }
 .shopping-modal .totals{
-    background: white;
     width: 75%;
     margin-bottom: 40px;
 }
@@ -242,33 +239,44 @@ header .header-right .cart {
 .shopping-modal .buttons {
     width: 90%;
     margin: 0 auto;
-    background: blue;
     display: flex;
     justify-content: space-around;
 }
 
 .shopping-modal .buttons .btn {
-    background: green;
     padding: .75rem 1rem;
     font-size: .625rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration: none;
-    
+
 }
 
 .shopping-modal .buttons .btn.view-edit {
+    background: white;
     border: 2px solid black;
     color: black;
+    transition: all .4s ease-out;
+}
+
+.shopping-modal .buttons .btn.view-edit:hover {
+    background: black;
+    color: white;
 }
 
 .shopping-modal .buttons .btn.checkout {
+    background: red;
     border: 2px solid #ee1c25;
     color: white;
-
+    transition: all .4s ease-out;
 }
 
+
+.shopping-modal .buttons .btn.checkout:hover {
+    background: white;
+    color: #ee1c25;
+}
 
 .hero{
     width: 100vw; 

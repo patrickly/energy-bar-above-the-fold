@@ -30,7 +30,10 @@ header {
     display: flex;
     padding: 20px;
     text-transform: uppercase;
-    border-bottom: 1.1px solid #DCDCDC	;
+    border-bottom: 1.1px solid #DCDCDC;
+    position: sticky;
+    top: 0;
+    background: white;
 }
 
 
@@ -298,6 +301,6 @@ header .header-right .cart .box{
 
 .hero{
     width: 100vw; 
-    height: 303px;
+    height: 3033px;
     background: blue;
 }

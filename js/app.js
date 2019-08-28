@@ -45,4 +45,3 @@ cartIcon.addEventListener("mouseover", mouseOver);
 cartIcon.addEventListener("mouseout", mouseOut);
 shopModal.addEventListener("mouseover", mouseOver);
 shopModal.addEventListener("mouseout", mouseOut);
-// https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener

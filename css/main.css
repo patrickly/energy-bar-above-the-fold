@@ -250,26 +250,22 @@ header .header-right .cart {
 .shopping-modal .buttons .btn {
     background: green;
     padding: .75rem 1rem;
-    font-size: .70rem;
+    font-size: .625rem;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
+    letter-spacing: 2px;
     text-decoration: none;
     
 }
 
-.shopping-modal a{
-
-font-size: yellow;
-
-}
-
 .shopping-modal .buttons .btn.view-edit {
     border: 2px solid black;
+    color: black;
 }
 
 .shopping-modal .buttons .btn.checkout {
     border: 2px solid #ee1c25;
+    color: white;
 
 }
 

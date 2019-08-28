@@ -187,19 +187,30 @@ header .header-right .fas {
 
 header .header-right .cart {
     padding-left: 10px;
+    padding-right: 10px;
+    background: red;
+    position: relative;
+}
+
+header .header-right .cart .box{
+    width:  100%;
+    height: 40px;
+    left: 0px;
+    background: green;
+    position: absolute;
 }
 
 
 
 .shopping-modal {
-    transform: translate3d(400px, 0, 0);
+    transform: translate3d(200px, 0, 0);
     display: block;
     position: absolute;
     right: 0;
     background: white;
     height: 255px;
     width: 350px;
-    transition: all .3s ease-out .05s;
+    transition: all .2s ease-out .1s;
     opacity: 0;
 }
 

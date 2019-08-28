@@ -207,13 +207,14 @@ header .header-right .cart .box{
     transform: translate3d(200px, 0, 0);
     display: block;
     position: absolute;
-    top: 75px;
+    top: 77px;
     right: 0;
     background: white;
     height: 255px;
     width: 350px;
     transition: all .2s ease-out .1s;
     opacity: 0;
+    border: 1px solid #DCDCDC;
 }
 
 .shopping-modal.show{

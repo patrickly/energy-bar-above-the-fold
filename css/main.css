@@ -194,8 +194,8 @@ header .header-right .cart {
     display: block;
     position: absolute;
     right: 0;
-    background: red;
-    height: 245px;
+    background: purple;
+    height: 255px;
     width: 350px;
 }
 
@@ -210,6 +210,7 @@ header .header-right .cart {
     width: 100%;
     text-align: center;
     background: pink;
+    margin-top: 10px;
     margin-bottom: 45px;
     text-transform: uppercase;
     font-weight: 900;
@@ -236,6 +237,40 @@ header .header-right .cart {
     font-size: 15px;
     letter-spacing: .5px;
     text-align: right;
+}
+
+.shopping-modal .buttons {
+    width: 90%;
+    margin: 0 auto;
+    background: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shopping-modal .buttons .btn {
+    background: green;
+    padding: .75rem 1rem;
+    font-size: .70rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    
+}
+
+.shopping-modal a{
+
+font-size: yellow;
+
+}
+
+.shopping-modal .buttons .btn.view-edit {
+    border: 2px solid black;
+}
+
+.shopping-modal .buttons .btn.checkout {
+    border: 2px solid #ee1c25;
+
 }
 
 

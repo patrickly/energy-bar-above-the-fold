@@ -188,3 +188,13 @@ header .header-right .cart {
     padding-left: 10px;
 }
 
+
+
+.shopping-modal {
+    display: block;
+    position: absolute;
+    right: 0;
+    background: red;
+    height: 103px;
+    width: 130px;
+}

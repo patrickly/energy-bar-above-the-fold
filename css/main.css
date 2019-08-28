@@ -1,7 +1,7 @@
 
 @import 'cssreset.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:900&display=swap');
 
 .notification {
     background: #0D2C44;
@@ -195,19 +195,49 @@ header .header-right .cart {
     position: absolute;
     right: 0;
     background: red;
-    height: 103px;
+    height: 245px;
     width: 350px;
 }
 
 .shopping-modal .modal-container {
     padding: 1rem;
-
+    text-align: center;
+    position: relative;
 }
 
-.shopping-modal .totals{
-    background: green;
+
+.shopping-modal h2{
     width: 100%;
+    text-align: center;
+    background: pink;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
 }
+
+.shopping-modal .table-container{
+    background: yellow;
+    display: flex;
+    justify-content: flex-end;
+}
+.shopping-modal .totals{
+    background: white;
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+.shopping-modal .totals td{
+    font-weight: 400;
+    /* background: yellow; */
+    padding: 5px;
+    font-size: 15px;
+    letter-spacing: .5px;
+    text-align: right;
+}
+
 
 .hero{
     width: 100vw; 

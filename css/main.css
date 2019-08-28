@@ -199,7 +199,7 @@ header .header-right .cart {
     background: white;
     height: 255px;
     width: 350px;
-    transition: all .3s ease-out;
+    transition: all .3s ease-out .05s;
     opacity: 0;
 }
 

@@ -196,5 +196,21 @@ header .header-right .cart {
     right: 0;
     background: red;
     height: 103px;
-    width: 130px;
+    width: 350px;
+}
+
+.shopping-modal .modal-container {
+    padding: 1rem;
+
+}
+
+.shopping-modal .totals{
+    background: green;
+    width: 100%;
+}
+
+.hero{
+    width: 100vw; 
+    height: 303px;
+    background: blue;
 }

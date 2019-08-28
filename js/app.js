@@ -6,6 +6,7 @@ var searchingInput = document.getElementsByClassName('searching');
 var abc = document.getElementById("abc");
 var xyz = document.getElementById("xyz");
 var rButton = document.getElementById("rightButton");
+var cartIcon = document.getElementById("cart-icon");
 
 
 var clickedBtn = function() {
@@ -27,6 +28,14 @@ console.log("xyz: ", xyz);
 
 // console.log('searchingInput:', searchIcon[0]);
 
+function mouseOver () {
+    console.log("over");
+}
 
+function mouseOut () {
+    console.log("out");
+}
+cartIcon.addEventListener("mouseover", mouseOver);
+cartIcon.addEventListener("mouseout", mouseOut);
 
-
+// https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener

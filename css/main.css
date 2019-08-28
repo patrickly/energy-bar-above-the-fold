@@ -30,6 +30,7 @@ header {
     display: flex;
     padding: 20px;
     text-transform: uppercase;
+    border-bottom: 1.1px solid #DCDCDC	;
 }
 
 
@@ -189,8 +190,13 @@ header .header-right .cart {
 }
 
 
+header .header-right .cart:hover {
+    background: red;
+
+}
 
 .shopping-modal {
+    transform: translate3d(200px, 0, 0);
     display: block;
     position: absolute;
     right: 0;

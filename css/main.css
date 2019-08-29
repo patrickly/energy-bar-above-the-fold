@@ -3,6 +3,64 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:900&display=swap');
 
+
+.mobile-menu{
+    display: none;
+
+}
+
+.mobile-menu.active {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 1px;
+    position: fixed;
+    background: white;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    overflow: auto; /* hides the hero section from showing up */
+}
+
+.mobile-menu .top {
+    height: 100px;
+    text-align: end;
+    padding: 25px;
+    font-size: 24px;
+}
+.mobile-menu .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu .links a {
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.mobile-menu .links a.active {
+    background: black;
+    color: white;
+}
+
+.mobile-menu .lang-menu {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    /* padding: 10px 20px; */
+}
+.mobile-menu .lang-menu a img {
+    height: 1.8rem;
+    margin-right: 10px;
+}
+
+
 .notification {
     background: #0D2C44;
     text-align: center;
@@ -306,15 +364,18 @@ header .header-right .cart .box{
     color: #ee1c25;
 }
 
+header .header-right .menu-btn{
+    display: none;
+}
+
 .hero{
     width: 100vw; 
     height: 1033px;
     background: blue;
 }
 
-header .header-right .menu-btn{
-    display: none;
-}
+
+
 
 @media only screen 
 and (min-device-width : 768px) 
@@ -324,6 +385,25 @@ and (max-device-width : 1024px)  {
        visibility: hidden;
        /* opacity: 0.1; */
    }
+
+   header .header-right .search #rightButton #abc {
+    position: absolute;
+    right: 0; 
+    top: 16px;
+}
+
+header .header-right .search #rightButton #abc {
+    position: absolute;
+    right: 0; 
+    top: 16px;
+}
+
+header .header-right .search #xyz {
+    position: absolute;
+    right: 0; 
+    top: 13px;
+}
+
    header .header-right .sign-in{
         display: none;
    }
@@ -344,6 +424,7 @@ and (max-device-width : 1024px)  {
         width: 0;
         height: 0;
     }
+    
 
    .shopping-modal {
         transform: translate3d(0, 0, 0);

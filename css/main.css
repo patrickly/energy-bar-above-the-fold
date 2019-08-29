@@ -13,17 +13,16 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: green;
     padding: 1px;
     position: fixed;
-    z-index: 1;
+    background: white;
+    z-index: 11;
     left: 0;
     top: 0;
-
+    overflow: auto; /* hides the hero section from showing up */
 }
 
 .mobile-menu .top {
-    background: red;
     height: 100px;
     text-align: end;
     padding: 25px;
@@ -36,7 +35,6 @@
 
 .mobile-menu .links a {
     font-family: 'Work Sans', sans-serif;
-    background: blue;
     padding: 10px 20px;
     font-size: 20px;
     text-decoration: none;
@@ -54,7 +52,6 @@
     width: 20%;
     display: flex;
     align-items: center;
-    background: yellow;
     margin: 10px 20px;
     /* padding: 10px 20px; */
 }
@@ -63,9 +60,6 @@
     margin-right: 10px;
 }
 
-.mobile-menu .lang-menu .fa-caret-right {
-    background: red;
-}
 
 .notification {
     background: #0D2C44;

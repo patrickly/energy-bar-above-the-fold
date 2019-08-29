@@ -205,21 +205,26 @@ header .header-right .cart .box{
 
 .shopping-modal {
     transform: translate3d(200px, 0, 0);
-    display: block;
+    visibility: hidden;
     position: absolute;
     top: 77px;
     right: 0;
     background: white;
-    height: 275px;
+    height: 300px;
     width: 350px;
     transition: all .2s ease-out .1s;
-    opacity: 0;
+    opacity: .5;
     border: 1px solid #DCDCDC;
+    z-index: 10;
 }
 
 .shopping-modal.show{
+    visibility: visible;    
     transform: translate3d(0, 0, 0);
     opacity: 1;  
+    height: 300px;
+    width: 350px;
+
 }
 
 .shopping-modal .modal-container {
@@ -305,4 +310,77 @@ header .header-right .cart .box{
     width: 100vw; 
     height: 1033px;
     background: blue;
+}
+
+header .header-right .menu-btn{
+    display: none;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+   header .header-list {
+       visibility: hidden;
+       /* opacity: 0.1; */
+   }
+   header .header-right .sign-in{
+        display: none;
+   }
+   header .header-right .faq{
+    display: none;
+   }
+   header .header-right .lang{
+        display: none;
+   }
+
+   header .header-right .menu-btn{
+        padding-left: 3px;
+        display: block;
+    }
+
+   .shopping-modal {
+        transform: translate3d(0, 0, 0);
+        top: 119px;
+        right: 0;
+   }
+
+   .shopping-modal.show{
+
+   }
+   /* header .header-right .search {
+    display: none;
+
+    } */
+}
+
+
+@media only screen 
+and (min-device-width : 0px) 
+and (max-device-width : 767px)  { 
+
+    header .header-list {
+        visibility: hidden;
+        /* opacity: 0.1; */
+    }
+    header .header-right .sign-in{
+         display: none;
+    }
+    header .header-right .faq{
+     display: none;
+    }
+    header .header-right .lang{
+         display: none;
+    }   
+    header .header-right .menu-btn{
+         padding-left: 3px;
+         display: block;
+     }
+ 
+    .shopping-modal {
+         transform: translate3d(0, 0, 0);
+         top: 119px;
+         right: 0;
+    }
+ 
 }

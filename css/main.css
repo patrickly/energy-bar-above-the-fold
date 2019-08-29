@@ -419,6 +419,7 @@ header .header-right .search #xyz {
         display: block;
     }
 
+
     header .header-right .cart .box {
         display: none;
         width: 0;
@@ -471,6 +472,11 @@ and (max-device-width : 767px)  {
          display: block;
      }
 
+     header .header-right .cart {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    
      header .header-right .cart .box {
         display: none;
         width: 0;

@@ -205,7 +205,7 @@ header .header-right .cart .box{
 
 .shopping-modal {
     transform: translate3d(200px, 0, 0);
-    display: block;
+    display: none;
     position: absolute;
     top: 77px;
     right: 0;
@@ -213,11 +213,12 @@ header .header-right .cart .box{
     height: 275px;
     width: 350px;
     transition: all .2s ease-out .1s;
-    opacity: 0;
+    opacity: .5;
     border: 1px solid #DCDCDC;
 }
 
 .shopping-modal.show{
+    display: block;
     transform: translate3d(0, 0, 0);
     opacity: 1;  
 }
@@ -305,4 +306,14 @@ header .header-right .cart .box{
     width: 100vw; 
     height: 1033px;
     background: blue;
+}
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+   body{
+        background: red;
+   }
 }

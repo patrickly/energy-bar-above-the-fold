@@ -453,6 +453,18 @@ header .header-right .menu-btn{
     color: white;
 }
 
+footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .copyright {
+
+    font-size: .7rem;
+}
+
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 

@@ -19,6 +19,10 @@ var clickedBtn = function() {
     console.log("clicked");
 }
 
+
+var clickedBtnShop = function() {
+    shopModal.classList.toggle('show');
+}
 var logging = function (){
     
 }
@@ -47,10 +51,13 @@ shopModal.addEventListener("mouseover", mouseOver);
 shopModal.addEventListener("mouseout", mouseOut);
 
 
+cartIcon.addEventListener('click', clickedBtnShop);
+
+
 // https://stackoverflow.com/questions/34554373/how-to-detect-onclick-event-only-smart-phone-and-tablet-using-javascript
 
-/*
 
+/*
 function isMobileOrTablet() {
     if (navigator.userAgent.match(/Android/i)
      || navigator.userAgent.match(/webOS/i)
@@ -69,13 +76,21 @@ function isMobileOrTablet() {
 console.log("mobile or tablet:", isMobileOrTablet());
 
 if(isMobileOrTablet()===true){
-    console.log("yo")
-} else {
+    console.log("yoe")
+
+} 
+
+if(isMobileOrTablet()===false){
+    console.log("yoee")
+
+    //rButton.addEventListener('click', clickedBtn);
+
     // cartIcon.addEventListener("mouseover", mouseOver);
     // cartIcon.addEventListener("mouseout", mouseOut);
     // shopModal.addEventListener("mouseover", mouseOver);
     // shopModal.addEventListener("mouseout", mouseOut);
 }
+
 
 
 */

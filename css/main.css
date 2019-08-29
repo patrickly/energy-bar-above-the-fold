@@ -378,9 +378,15 @@ and (max-device-width : 767px)  {
      }
  
     .shopping-modal {
-         transform: translate3d(0, 0, 0);
-         top: 119px;
+         /* transform: translate3d(0, 0, 0); */
+         top: 77px;
          right: 0;
     }
+
+    .shopping-moda.show {
+        /* transform: translate3d(0, 0, 0); */
+        top: 77px;
+        right: 0;
+   }
  
 }

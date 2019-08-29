@@ -14,7 +14,7 @@
     z-index: 1;
     left: 0;
     top: 0;
-   
+
 }
 
 .mobile-menu .top {
@@ -27,6 +27,22 @@
 .mobile-menu .links {
     display: flex;
     flex-direction: column;
+}
+
+.mobile-menu .links a {
+    font-family: 'Work Sans', sans-serif;
+    background: blue;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.mobile-menu .links a.active {
+    background: black;
+    color: white;
 }
 .notification {
     background: #0D2C44;

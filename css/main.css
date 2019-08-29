@@ -385,15 +385,37 @@ header .header-right .menu-btn{
 }
 
 .hero .hero-container {
-    background: red;
+    background: rgba(255, 0, 0, 0.3);
     padding: 5rem;
+    height: 100%;
 }
 
 .hero .hero-container .left-side {
     background: blue;
     width: 50%;
+    height: 100%;
 }
 
+
+.hero .hero-container .left-side  h1{
+    font-size: 3.5rem;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: .9;
+    letter-spacing: 2px;
+}
+
+
+.hero .hero-container .left-side p{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background: rgba(0, 200,0, 0.2);
+    width: 85%;
+    font-size: .8rem;
+    line-height: 2;
+    /* text-transform: uppercase; */
+}
 
 
 @media only screen 

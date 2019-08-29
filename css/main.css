@@ -508,6 +508,11 @@ header .header-right .search #xyz {
     }
 
 
+    header .header-right .cart {
+       padding-left: 13px;
+       padding-right: 13px;
+   }
+
     header .header-right .cart .box {
         display: none;
         width: 0;

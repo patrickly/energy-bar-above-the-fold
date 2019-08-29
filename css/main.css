@@ -44,6 +44,24 @@
     background: black;
     color: white;
 }
+
+.mobile-menu .lang-menu {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background: yellow;
+    margin: 10px 20px;
+    /* padding: 10px 20px; */
+}
+.mobile-menu .lang-menu a img {
+    height: 1.8rem;
+    margin-right: 10px;
+}
+
+.mobile-menu .lang-menu .fa-caret-right {
+    background: red;
+}
+
 .notification {
     background: #0D2C44;
     text-align: center;

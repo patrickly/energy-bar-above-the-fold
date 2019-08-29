@@ -316,4 +316,18 @@ and (max-device-width : 1024px)  {
    body{
         background: red;
    }
+
+   header .header-list {
+       visibility: hidden;
+       /* opacity: 0.1; */
+   }
+   header .header-right .sign-in{
+        display: none;
+   }
+   header .header-right .faq{
+    display: none;
+   }
+   header .header-right .lang{
+        display: none;
+   }
 }

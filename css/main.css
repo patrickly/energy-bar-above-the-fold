@@ -385,6 +385,13 @@ and (max-device-width : 1024px)  {
        visibility: hidden;
        /* opacity: 0.1; */
    }
+
+   header .header-right .search #rightButton #abc {
+    position: absolute;
+    right: 0; 
+    top: 16px;
+}
+
    header .header-right .sign-in{
         display: none;
    }
@@ -405,6 +412,7 @@ and (max-device-width : 1024px)  {
         width: 0;
         height: 0;
     }
+    
 
    .shopping-modal {
         transform: translate3d(0, 0, 0);

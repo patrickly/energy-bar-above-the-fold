@@ -392,6 +392,18 @@ and (max-device-width : 1024px)  {
     top: 16px;
 }
 
+header .header-right .search #rightButton #abc {
+    position: absolute;
+    right: 0; 
+    top: 16px;
+}
+
+header .header-right .search #xyz {
+    position: absolute;
+    right: 0; 
+    top: 13px;
+}
+
    header .header-right .sign-in{
         display: none;
    }

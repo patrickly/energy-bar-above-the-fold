@@ -9,6 +9,10 @@ var rButton = document.getElementById("rightButton");
 var cartIcon = document.getElementById("cart-icon");
 var shopModal = document.getElementById("shop-modal");
 
+var closeMenu = document.getElementById("close-menu");
+var mobileMenu = document.getElementsByClassName("mobile-menu")[0];
+var menuBtn = document.getElementById("ham-menu");
+
 
 var clickedBtn = function() {
     // mobileMenu[0].classList.toggle('active');
@@ -23,9 +27,15 @@ var clickedBtn = function() {
 var clickedBtnShop = function() {
     shopModal.classList.toggle('show');
 }
-var logging = function (){
-    
+
+var clickMenuBtn = function (){
+    console.log("menu btn clicked");
+    mobileMenu.classList.toggle('active');
 }
+
+menuBtn.addEventListener('click', clickMenuBtn);
+closeMenu.addEventListener('click', clickMenuBtn);
+
 rButton.addEventListener('click', clickedBtn);
 
 console.log("abc: ", abc);

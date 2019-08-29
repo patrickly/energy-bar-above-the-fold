@@ -4,8 +4,13 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:900&display=swap');
 
 
+.mobile-menu{
+    display: none;
 
-.mobile-menu {
+}
+
+.mobile-menu.active {
+    display: block;
     height: 100%;
     width: 100%;
     background: green;

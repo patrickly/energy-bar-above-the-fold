@@ -205,22 +205,26 @@ header .header-right .cart .box{
 
 .shopping-modal {
     transform: translate3d(200px, 0, 0);
-    display: none;
+    visibility: hidden;
     position: absolute;
     top: 77px;
     right: 0;
     background: white;
-    height: 275px;
+    height: 300px;
     width: 350px;
     transition: all .2s ease-out .1s;
     opacity: .5;
     border: 1px solid #DCDCDC;
+    z-index: 10;
 }
 
 .shopping-modal.show{
-    display: block;
+    visibility: visible;    
     transform: translate3d(0, 0, 0);
     opacity: 1;  
+    height: 300px;
+    width: 350px;
+
 }
 
 .shopping-modal .modal-container {
@@ -313,9 +317,6 @@ header .header-right .cart .box{
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
-   body{
-        background: red;
-   }
 
    header .header-list {
        visibility: hidden;
@@ -330,4 +331,16 @@ and (max-device-width : 1024px)  {
    header .header-right .lang{
         display: none;
    }
+
+
+   .shopping-modal {
+        transform: translate3d(0, 0, 0);
+        top: 119px;
+        right: 0;
+   }
+
+   .shopping-modal.show{
+
+   }
+
 }

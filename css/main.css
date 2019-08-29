@@ -3,6 +3,31 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:900&display=swap');
 
+
+
+.mobile-menu {
+    height: 100%;
+    width: 100%;
+    background: green;
+    padding: 1px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+   
+}
+
+.mobile-menu .top {
+    background: red;
+    height: 100px;
+    text-align: end;
+    padding: 25px;
+    font-size: 24px;
+}
+.mobile-menu .links {
+    display: flex;
+    flex-direction: column;
+}
 .notification {
     background: #0D2C44;
     text-align: center;
@@ -306,15 +331,18 @@ header .header-right .cart .box{
     color: #ee1c25;
 }
 
+header .header-right .menu-btn{
+    display: none;
+}
+
 .hero{
     width: 100vw; 
     height: 1033px;
     background: blue;
 }
 
-header .header-right .menu-btn{
-    display: none;
-}
+
+
 
 @media only screen 
 and (min-device-width : 768px) 

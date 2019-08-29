@@ -458,6 +458,24 @@ and (max-device-width : 767px)  {
     header .header-right .search {
         margin-right: 10px;
     }
+
+    header .header-right .search input[type=text].act {
+        height: 6vh;
+    }
+
+
+    header .header-right .search #rightButton #abc {
+        position: absolute;
+        right: 0; 
+        top: -1px;
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 4px;
+    }
+    
+
+
     header .header-right .sign-in{
          display: none;
     }

@@ -21,6 +21,8 @@ var clickedBtn = function() {
     abc.classList.toggle('fa-times');
     // abc.classList.toggle('act');
     console.log("clicked");
+    shopModal.classList.remove('show');
+
 }
 
 

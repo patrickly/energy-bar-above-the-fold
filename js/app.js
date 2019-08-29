@@ -10,6 +10,9 @@ var cartIcon = document.getElementById("cart-icon");
 var shopModal = document.getElementById("shop-modal");
 
 var closeMenu = document.getElementById("close-menu");
+var searchX = document.getElementById("close-menu-search");
+
+var mobileSearch = document.getElementsByClassName("mobile-search-modal")[0];
 var mobileMenu = document.getElementsByClassName("mobile-menu")[0];
 var menuBtn = document.getElementById("ham-menu");
 
@@ -36,8 +39,19 @@ var clickMenuBtn = function (){
 
 }
 
+var searchExitBtn = function (){
+    console.log("search exit btn clicked");
+    mobileSearch.classList.toggle('active');
+    mobileMenu.classList.remove('show');
+    shopModal.classList.remove("show");
+
+}
+
 menuBtn.addEventListener('click', clickMenuBtn);
 closeMenu.addEventListener('click', clickMenuBtn);
+
+console.log('searchX', searchX);
+searchX.addEventListener('click', searchExitBtn);
 
 rButton.addEventListener('click', clickedBtn);
 

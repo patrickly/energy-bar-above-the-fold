@@ -3,6 +3,31 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:900&display=swap');
 
+.mobile-search-modal {
+    display: none; /* %%%% change to display none later */
+}
+
+.mobile-search-modal.active {
+    display: block;
+
+    height: 100%;
+    width: 100%;
+    padding: 1px;
+    position: fixed;
+    background: white;
+    background: red;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    overflow: auto; /* hides the hero section from showing up */
+}
+
+.mobile-search-modal .top {
+    height: 100px;
+    text-align: end;
+    padding: 25px;
+    font-size: 24px;
+}
 
 .mobile-menu{
     display: none;

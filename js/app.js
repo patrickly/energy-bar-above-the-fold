@@ -45,3 +45,37 @@ cartIcon.addEventListener("mouseover", mouseOver);
 cartIcon.addEventListener("mouseout", mouseOut);
 shopModal.addEventListener("mouseover", mouseOver);
 shopModal.addEventListener("mouseout", mouseOut);
+
+
+// https://stackoverflow.com/questions/34554373/how-to-detect-onclick-event-only-smart-phone-and-tablet-using-javascript
+
+/*
+
+function isMobileOrTablet() {
+    if (navigator.userAgent.match(/Android/i)
+     || navigator.userAgent.match(/webOS/i)
+     || navigator.userAgent.match(/iPhone/i)
+     || navigator.userAgent.match(/iPad/i)
+     || navigator.userAgent.match(/iPod/i)
+     || navigator.userAgent.match(/BlackBerry/i)
+     || navigator.userAgent.match(/Windows Phone/i)
+    ) {
+     return true;
+    }else {
+     return false;
+    }
+   }
+
+console.log("mobile or tablet:", isMobileOrTablet());
+
+if(isMobileOrTablet()===true){
+    console.log("yo")
+} else {
+    // cartIcon.addEventListener("mouseover", mouseOver);
+    // cartIcon.addEventListener("mouseout", mouseOut);
+    // shopModal.addEventListener("mouseover", mouseOver);
+    // shopModal.addEventListener("mouseout", mouseOut);
+}
+
+
+*/

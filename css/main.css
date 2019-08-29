@@ -213,7 +213,7 @@ header .header-right .cart .box{
     height: 300px;
     width: 350px;
     transition: all .2s ease-out .1s;
-    opacity: .5;
+    opacity: 0;
     border: 1px solid #DCDCDC;
     z-index: 10;
 }
